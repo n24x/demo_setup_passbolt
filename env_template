@@ -1,0 +1,20 @@
+## rename to .env and change the values below
+
+MYSQL_RANDOM_ROOT_PASSWORD='true'
+MYSQL_DATABASE='passbolt' # change this to your database name
+MYSQL_USER='admin' # change this to your username
+MYSQL_PASSWORD='password' # change this to your password
+
+APP_FULL_BASE_URL='https://example.com' # change this to your domain name
+
+DATASOURCES_DEFAULT_HOST='db'
+DATASOURCES_DEFAULT_USERNAME='admin' # change this to your username
+DATASOURCES_DEFAULT_PASSWORD='password' # change this to your password
+DATASOURCES_DEFAULT_DATABASE='passbolt' # change this to your database name
+
+EMAIL_TRANSPORT_DEFAULT_HOST='smtp.gmail.com' # change this to your email provider
+EMAIL_TRANSPORT_DEFAULT_PORT='587'
+EMAIL_TRANSPORT_DEFAULT_USERNAME='name@gmail.com' # change this to your email address
+EMAIL_TRANSPORT_DEFAULT_PASSWORD='password' # change this to your email password
+EMAIL_TRANSPORT_DEFAULT_TLS='true'
+EMAIL_DEFAULT_FROM='name@gmail.com' # change this to your email address
