@@ -30,7 +30,7 @@ entryPoints:
 certificatesResolvers:
   letsencrypt:
     acme:
-      email: 7ff11f9b@duck.com
+      email: youremail@mail.com
       storage: /shared/acme.json
       caServer: 'https://acme-v02.api.letsencrypt.org/directory'
       keyType: EC256

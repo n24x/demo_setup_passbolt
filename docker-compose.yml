@@ -37,11 +37,11 @@ services:
     labels:
       traefik.enable: "true"
       traefik.http.routers.passbolt-http.entrypoints: "web"
-      traefik.http.routers.passbolt-http.rule: "Host(`pb.n24x.com`)"
+      traefik.http.routers.passbolt-http.rule: "Host(`pb.example.com`)"
       traefik.http.routers.passbolt-http.middlewares: "SslHeader@file"
       traefik.http.routers.passbolt-https.middlewares: "SslHeader@file"
       traefik.http.routers.passbolt-https.entrypoints: "websecure"
-      traefik.http.routers.passbolt-https.rule: "Host(`pb.n24x.com`)"
+      traefik.http.routers.passbolt-https.rule: "Host(`pb.example.com`)"
       traefik.http.routers.passbolt-https.tls: "true"
       traefik.http.routers.passbolt-https.tls.certresolver: "letsencrypt"
   traefik:
